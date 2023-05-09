@@ -11,5 +11,15 @@ func main() {
 	// firstName = "Aku"
 	lastName = "Harley"
 
-	fmt.Print("perkenalkan ", firstName, lastName, "!\n")
+	//tipe data numerik
+	var bilanganBulat uint8 = 20
+	//tipe data desimal 
+	var bilanganDesimal = 2.12
+	//tipe data boolean
+	var varBool = true
+
+	fmt.Println("perkenalkan ", firstName, lastName, "!\n")
+	fmt.Println(bilanganBulat, bilanganDesimal, varBool)
+
+
 }
